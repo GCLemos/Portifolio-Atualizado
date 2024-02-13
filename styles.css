@@ -142,11 +142,10 @@ body {
     transform: scale(1.2);
 }
 
-.nav__a:active,
 .nav__a:hover.nav__a:active::after,
 .nav__a:hover::after {
     background-color: var(--laranja-destaque);
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 
@@ -372,6 +371,13 @@ footer {
 
 .container__links__li i {
     font-size: var(--fonte-grande);
+    transition: all 0.17s ease-in-out;
+}
+
+.container__links__li i:hover {
+    scale: 1.2;
+    color: var(--laranja-destaque);
+    cursor: pointer;
 }
 
 .rodape__container__formulario {
