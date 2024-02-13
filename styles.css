@@ -369,6 +369,10 @@ footer {
     list-style: none;
 }
 
+.container__links a {
+    color: var(--creme);
+}
+
 .container__links__li i {
     font-size: var(--fonte-grande);
     transition: all 0.17s ease-in-out;
